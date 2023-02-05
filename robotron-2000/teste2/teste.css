@@ -1,0 +1,42 @@
+body  {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    border: wheat 1px solid;
+    border-radius: 30px;
+}
+.container:hover{
+    transition: 500ms;
+    scale: 1.1;
+    box-shadow:  10px 10px 15px wheat;
+}
+.page-title {
+    font-family: 'Dancing Script', cursive;
+}
+#calcular  {
+    background: #000;
+    color: #fff;
+    border: 1px solid wheat;
+    padding: 10px 30px;
+}
+
+#calcular:hover{
+    transition: 500ms;
+    scale: 1.1;
+    box-shadow: inset 1px 1px 10px wheat;
+}
